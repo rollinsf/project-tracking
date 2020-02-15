@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(230, 29%, 20%);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: hsl(230, 29%, 20%);
+    margin-left: 18px;
+}
+
+h2 {
+    padding: 20px;
+}
+
+#page-container {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+#top-container {
+    position: relative;
+    padding: 75px 75px 75px 200px;
+    margin-bottom: 100px;
+}
+
+#mid-container {
+    position: relative;
+    margin-left: 175px;
+    width: 100%;
+}
+
+#footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.logo{
+    float: left;
+}
+
+.background {
+    position: absolute;
+    background-color: hsl(207, 33%, 95%);
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: 500px;
+    border-bottom-left-radius: 50px;
+}
+
+.navigation {
+    position: absolute;
+    margin-right: 5%;
+    top: 75px;
+    right: 0;
+}
+
+.nav {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0 30px;
+}
+
+.login {
+    padding: 0 125px;
+    color: hsl(230, 11%, 40%);
+}
+
+.illustration {
+    float: right;
+    position: relative;
+    left: 25px;
+}
+
+.whatsnew {
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    color: hsl(231, 7%, 65%);
+    font-weight: 200;
+}
+
+.new {
+    padding: 4px 15px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: hsl(230, 29%, 20%);
+    border-radius: 30px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.power {
+    width: 33%;
+    font-weight: 900;
+    font-stretch: condensed;
+    text-shadow: 2px 0 hsl(230, 29%, 20%);
+    margin-bottom: 30px;
+}
+
+.planning {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: hsl(230, 11%, 40%);
+    margin-left: 18px;
+    width: 18%;
+    margin-bottom: 75px;
+}
+
+.preview {
+    font-size: 1rem;
+    letter-spacing: 5px;
+    font-weight: 400;
+    color: hsl(231, 7%, 65%);
+}
+.schedule {
+    background-color: hsl(0, 100%, 68%);
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-right: 25px;
+    letter-spacing: 1px;
+    color: hsl(207, 33%, 95%);
+}
+
+.schedule:hover {
+    background-color: hsl(2, 100%, 76%);
+}
